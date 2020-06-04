@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Queen Elizabeth's School</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="refresh" content="3600">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" type="text/css">
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- time -->
+			<div id="border" class="shape">
+				<object type="image/svg+xml" data="qe_logo_4.svg" width="600px"></object>
+				<p id="time" onload="showTime()"></p>
+			</div>
+			<!-- feed / image -->
+			<div id="middle" class="shape">
+				<div class="embed">
+					<!-- video stream -->
+					<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/9Auq9mYxFEE?autoplay=1&cc_load_policy=1&controls=0&mute=1&color=white" frameborder="0" autoplay></iframe>
+				</div>
+				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTph13kibnxioVE7k8ha6OsJowtOP4JLvQbMd7SB40eHjyEi8BeYh1_-_12wKsPsdVIdFoUF1tZe8pJ/embed?start=true&loop=true&delayms=10000" frameborder="0" width="672" height="702" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			</div>
+			<div class="orange"></div>
+		</div>
+	</body>
+<script src="js/time.js"></script>
+</html>

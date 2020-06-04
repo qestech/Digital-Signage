@@ -1,0 +1,67 @@
+html,
+body {
+  background: rgb(36,52,68);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.shape {
+  width: 100vw;
+}
+
+.image {
+  width: 35vw;
+  height: 65vh;
+}
+
+#border {
+  height: 14vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  background: grey;
+  height: 10vh;
+}
+
+object {
+  padding: 2em;
+}
+
+#middle {
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  box-shadow: 0px 0px 40px 10px rgb(0,0,0,0.25);
+}
+
+iframe {
+  height: 65vh;
+  width: 65vw;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#time {
+  background: rgb(255,153,51);
+  margin: .3em 0em .3em 0.3em;
+  padding: .25em .75em;
+  font: 2.5em 'Roboto Mono';
+  color: #444;
+}
+
+.orange {
+  background: rgb(255,153,51);
+  width: 100vw;
+  height: 7.5vh;
+  box-shadow: 0px 0px 40px 10px rgb(0,0,0,0.35);
+  margin: 0;
+  padding: 0;
+}
